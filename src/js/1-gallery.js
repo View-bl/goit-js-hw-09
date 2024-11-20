@@ -78,8 +78,6 @@ const galleryItems = images
             class="gallery-image"
             src="${preview}"
             alt="${description}"
-            height="215"
-            width="415"
           />
         </a>
       </li>
