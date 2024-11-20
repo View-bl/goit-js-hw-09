@@ -1,0 +1,33 @@
+.gallery-a,
+.form-a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* Стилізація для посилання 'Gallery' */
+.gallery-a {
+    background-color: #4CAF50;
+    /* зелений фон */
+}
+
+/* Стилізація для посилання 'Form' */
+.form-a {
+    background-color: #2196F3;
+    /* синій фон */
+}
+
+/* Ефект при наведенні на посилання */
+.gallery-a:hover,
+.form-a:hover {
+    transform: scale(1.1);
+    /* Збільшення при наведенні */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    /* Тінь */
+}
