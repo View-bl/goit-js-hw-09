@@ -10,6 +10,9 @@
     text-align: center;
     transition: all 0.3s ease;
 }
+.gallery-form {
+    list-style-type: none;
+}
 
 .gallery-a {
     background-color: #4CAF50;
